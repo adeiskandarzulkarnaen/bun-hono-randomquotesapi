@@ -1,0 +1,16 @@
+
+###
+// Get Random Quotes
+GET http://localhost:3000/quotes
+
+
+###
+// Post a Quotes
+POST http://localhost:3000/quotes
+Content-Type: application/json
+Authorization: Bearer secret
+
+{
+  "author": "-zul",
+  "quotes": "Jika kamu mencintai seseorang terlalu dalam, maka bersiaplah menerima sakit yang sangat dalam"
+}
